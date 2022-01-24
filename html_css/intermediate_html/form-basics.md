@@ -301,6 +301,7 @@ We can set the default selected radio button by adding the `checked` attribute t
 ~~~
 
 **Checkboxes**
+
 Checkboxes are similar to radio buttons in that that they allow users to choose from a set of predefined options. But unlike radio buttons, they allow multiple options to be selected at once.
 
 To create a checkbox, we use the input element with a type attribute of "checkbox":
@@ -309,22 +310,22 @@ To create a checkbox, we use the input element with a type attribute of "checkbo
 <h1>Pizza Toppings</h1>
 
 <div>
-  <input type="radio" id="child" name="topping" value="sausage">
+  <input type="checkbox" id="child" name="topping" value="sausage">
   <label for="sausage">Sausage</label>
 </div>
 
 <div>
-  <input type="radio" id="onions" name="topping" value="onions">
+  <input type="checkbox" id="onions" name="topping" value="onions">
   <label for="onions">Onions</label>
 </div>
 
 <div>
-  <input type="radio" id="pepperoni" name="topping" value="pepperoni">
+  <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
   <label for="pepperoni">Pepperoni</label>
 </div>
 
 <div>
-  <input type="radio" id="mushrooms" name="topping" value="mushrooms">
+  <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
   <label for="mushrooms">Mushrooms</label>
 </div>
 ~~~
